@@ -1,14 +1,14 @@
 # code your #position_taken? method here!
-def position_taken?(board, index)
-  array[index_number]
+def position_taken?(board, location)
+  index = board[location.to_i - 1]
 
-  if index == " "
+  if index != " "
     "false"
-  elsif index == ""
+  elsif index != ""
     "false"
-  elsif index == nil
+  elsif index != nil
     "false"
-  else index == X or O
+  else index == "X" or "O"
     "true"
 
 end
