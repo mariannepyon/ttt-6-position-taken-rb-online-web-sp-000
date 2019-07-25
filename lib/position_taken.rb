@@ -8,7 +8,7 @@ def position_taken?(board, location)
     "false"
   elsif index != nil
     "false"
-  else index == "X" or "O"
+  else index == "X"
     "true"
 
 end
